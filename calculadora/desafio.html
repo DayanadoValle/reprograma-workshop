@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+    <link rel="icon" href="img/favicon.ico" />
+    <script type="text/javascript" src="js/desafio.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="barra-navegacao">
+      <img
+        class="barra-navegacao__logotipo"
+        src="img/logotipo-reprograma.png"/>
+    </nav>
+
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Desafio da Calculadora da Day  </h1>
+    </header>
+    
+    <main class="conteudo-principal">
+  <section class="secao secao-hora">
+    <article class="secao__conteudo">
+      <div class="secao__formulario">
+        <fieldset>
+          <div class="secao__formulario__grupo">
+            <legend><b>Quanto você cobra por hora?</b></legend>
+            <label for="valorHora">Valor/Hora</label>
+            <input id="valorHora" type="number" value="0" />
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <div class="secao__formulario__grupo">
+            <label for="horasProjeto">Total de horas para concluir o Projeto</label>
+            <input id="horasProjeto" type="number" value="0" />
+            <button onclick="calcularValorHora()"> Calcular Projeto</button>
+          </div>
+        </fieldset>
+      </div>
+    </article>
+
+    <footer class="secao__rodape">
+      
+      <p class="secao__rodape__legenda"><i>O valor total do projeto será</i></p>
+      <h3 class="secao__rodape__valor">
+        <span id="resposta">R$ 0,00</span> </h3>
+      <br></br>
+      <a href="index.html">Voltar</a>
+     </footer>
+  </section>
+</main>
+
+<footer class="rodape">Feito por <a href="https://www.linkedin.com/in/dayana-do-valle/"
+  target="_blank" >Dayana do Valle</a></footer>
+
+
+
+</body>
+</html>
+
+
+    
+   
